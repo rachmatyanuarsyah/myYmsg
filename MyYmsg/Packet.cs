@@ -43,17 +43,17 @@ namespace MyYmsg
 		public ushort Length { get; set; }
 
 		/// <summary>
-		/// Gets or sets the <see cref="vIT.Net.YMSG.Enumerations.PacketService"/> enumeration that is the service that the packet request or response.
+		/// Gets or sets the <see cref="MyYmsg.Enumerations.enum.PacketService"/> enumeration that is the service that the packet request or response.
 		/// </summary>
 		public PacketService Service { get; set; }
 
 		/// <summary>
-		/// Gets or sets the <see cref="vIT.Net.YMSG.Enumerations.PacketStatus"/> enumeration that is the status of the packet.
+		/// Gets or sets the <see cref="MyYmsg.Enumerations.enum.PacketStatus"/> enumeration that is the status of the packet.
 		/// </summary>
 		public PacketStatus Status { get; set; }
 
 		/// <summary>
-		/// Gets or sets the <see cref="vIT.Net.YMSG.PacketData"/> object that contains the data in key-value format.
+		/// Gets or sets the <see cref="MyYmsg.PacketData"/> object that contains the data in key-value format.
 		/// </summary>
 		public PacketData Data { get; set; }
 
@@ -67,7 +67,7 @@ namespace MyYmsg
 		#region Constructor
 
 		/// <summary>
-		/// Initializes a new instance of <see cref="vIT.Net.YMSG.Packet"/> class that contains the YMSG packet.
+		/// Initializes a new instance of <see cref="MyYmsg.Packet"/> class that contains the YMSG packet.
 		/// </summary>
 		public Packet()
 		{
