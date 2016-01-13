@@ -75,7 +75,7 @@ namespace MyYmsg
 		private LoginStatus __loginStatus = LoginStatus.NotAuthenticated;
 				
 		/// <summary>
-		/// Gets the <see cref="vIT.Net.YMSG.ConnectionStatus"/> enumeration that is the status of connection.
+		/// Gets the <see cref="MyYmsg.ConnectionStatus"/> enumeration that is the status of connection.
 		/// </summary>
 		public ConnectionStatus ConnectionStatus
 		{
@@ -88,7 +88,7 @@ namespace MyYmsg
 		}
 
 		/// <summary>
-		/// Gets the <see cref="vIT.Net.YMSG.LoginStatus"/> enumeration that is the status of loging-in.
+		/// Gets the <see cref="MyYmsg.LoginStatus"/> enumeration that is the status of loging-in.
 		/// </summary>
 		public LoginStatus LoginStatus
 		{
@@ -110,7 +110,7 @@ namespace MyYmsg
 		#region Constructor
 
 		/// <summary>
-		/// Initializes a new instance of <see cref="vIT.Net.YMSG.YMSGClient"/> class.
+		/// Initializes a new instance of <see cref="MyYmsg.ymsgNet"/> class.
 		/// </summary>
 		public ymsgNet()
 		{
@@ -118,7 +118,7 @@ namespace MyYmsg
 		}
 
 		/// <summary>
-		/// Initializes a new instance of <see cref="vIT.Net.YMSG.YMSGClient"/> class with the initializing options.
+		/// Initializes a new instance of <see cref="MyYmsg.ymsgNet"/> class with the initializing options.
 		/// </summary>
 		/// <param name="options">The initializing options.</param>
 		public ymsgNet(InitOptions options)
